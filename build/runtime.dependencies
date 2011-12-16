@@ -1,0 +1,4 @@
+mvn://repo.bodar.com/com.googlecode.totallylazy:totallylazy:jar|sources:576
+mvn://repo.bodar.com/com.googlecode.utterlyidle:utterlyidle:jar|sources:452
+mvn://repo.bodar.com/com.googlecode.waitrest:waitrest:jar|sources:81
+mvn://repo.bodar.com/com.googlecode.yadic:yadic:jar|sources:74

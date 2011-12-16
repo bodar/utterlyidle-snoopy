@@ -1,0 +1,10 @@
+syntax: glob
+out
+*.iws
+build/artifacts
+.idea/workspace.xml
+*.orig
+utterlyidle-snoopy.ipr
+lib/build
+lib/runtime
+lib/optional
