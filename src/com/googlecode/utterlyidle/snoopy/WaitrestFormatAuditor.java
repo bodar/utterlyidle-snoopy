@@ -21,7 +21,7 @@ public class WaitrestFormatAuditor implements Auditor {
     public void audit(Pair<Request, Date> request, Pair<Response, Date> response) throws Exception {
         Writer writer = new OutputStreamWriter(outputStream.outputStream());
         writer.write(waitrestFormat(request.first(), response.first()));
-        writer.close();
+        writer.flush();
     }
 
     public static String waitrestFormat(Object... values) {
