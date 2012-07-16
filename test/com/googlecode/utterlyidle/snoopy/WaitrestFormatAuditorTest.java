@@ -38,6 +38,6 @@ public class WaitrestFormatAuditorTest {
                 "HTTP/1.1 200 OK\r\n" +
                 "Content-Length: 8\r\n" +
                 "\r\n" +
-                "<hello/>\n"));
+                "<hello/>\n\n\n"));
     }
 }
