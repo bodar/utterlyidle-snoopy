@@ -8,8 +8,7 @@ import com.googlecode.yadic.Container;
 
 public class SnoopyModule implements RequestScopedModule {
     @Override
-    public Module addPerRequestObjects(Container container) throws Exception {
-        container.decorate(HttpClient.class, SnoopingClient.class);
-        return this;
+    public Container addPerRequestObjects(Container container) throws Exception {
+        return container.decorate(HttpClient.class, SnoopingClient.class);
     }
 }
