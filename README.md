@@ -1,1 +1,3 @@
-Bridge between waitrest and utterlyidle: snooping real traffic and recording it in waitrest
+# Bridge between waitrest and utterlyidle
+
+Snooping real traffic and recording it in waitrest
